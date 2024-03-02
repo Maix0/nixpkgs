@@ -25,7 +25,7 @@ let
 in
 python.pkgs.buildPythonApplication rec {
   pname = "fit-trackee";
-  version = "0.7.29";
+  version = "0.7.31";
   format = "pyproject";
 
   src = fetchFromGitHub {
